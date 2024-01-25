@@ -18,9 +18,7 @@ body {
   background: none !important;
 }
 
-[data-testid="root"]
-  [aria-label="Top\ bar\ and\ user\ menu"]
-  span:has(.ellipsis-one-line) {
+[data-testid="root"] [aria-label="Top\ bar\ and\ user\ menu"] span:has(.ellipsis-one-line) {
   display: none !important;
 }
 
@@ -217,13 +215,11 @@ div[style] {
 }
 
 nav-alt .Y8edH1Yjo4xrW_58czQj {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(hsla(0, 0%, 7%, 0.7)),
-    to(hsla(0, 0%, 7%, 0))
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      left bottom,
+      from(hsla(0, 0%, 7%, 0.7)),
+      to(hsla(0, 0%, 7%, 0)));
   background: linear-gradient(180deg, hsl(0deg 0% 7% / 0%), hsla(0, 0%, 7%, 0));
 }
 
@@ -270,12 +266,12 @@ nav-alt .Y8edH1Yjo4xrW_58czQj {
   width: 48px;
 }
 
-.os-theme-spotify > .os-scrollbar-horizontal > .os-scrollbar-track,
-.os-theme-spotify > .os-scrollbar-horizontal > .os-scrollbar-track.active,
-.os-theme-spotify > .os-scrollbar-horizontal > .os-scrollbar-track:hover,
-.os-theme-spotify > .os-scrollbar-vertical > .os-scrollbar-track,
-.os-theme-spotify > .os-scrollbar-vertical > .os-scrollbar-track.active,
-.os-theme-spotify > .os-scrollbar-vertical > .os-scrollbar-track:hover {
+.os-theme-spotify>.os-scrollbar-horizontal>.os-scrollbar-track,
+.os-theme-spotify>.os-scrollbar-horizontal>.os-scrollbar-track.active,
+.os-theme-spotify>.os-scrollbar-horizontal>.os-scrollbar-track:hover,
+.os-theme-spotify>.os-scrollbar-vertical>.os-scrollbar-track,
+.os-theme-spotify>.os-scrollbar-vertical>.os-scrollbar-track.active,
+.os-theme-spotify>.os-scrollbar-vertical>.os-scrollbar-track:hover {
   background: #09090980;
 }
 
@@ -301,15 +297,13 @@ nav-alt .Y8edH1Yjo4xrW_58czQj {
   margin-block: 0px;
   font-size: 0.8125rem;
   font-weight: 400;
-  font-family: var(
-    --font-family,
-    CircularSp,
-    CircularSp-Arab,
-    CircularSp-Hebr,
-    CircularSp-Cyrl,
-    CircularSp-Grek,
-    CircularSp-Deva,
-    var(--fallback-fonts, sans-serif)
-  );
+  font-family: var(--font-family,
+      CircularSp,
+      CircularSp-Arab,
+      CircularSp-Hebr,
+      CircularSp-Cyrl,
+      CircularSp-Grek,
+      CircularSp-Deva,
+      var(--fallback-fonts, sans-serif));
   color: #ffffff;
 }

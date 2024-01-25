@@ -1,5 +1,10 @@
+/* Use the Import rule to grab the font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-  font-family: Arial;
+  /* Specify the font */
+  font-family: 'Open Sans', sans-serif;
+  /* Feel free to edit the size, color etc */
   font-size: 16px;
   color: black;
 }

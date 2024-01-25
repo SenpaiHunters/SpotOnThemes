@@ -10,12 +10,12 @@ RULES:
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
 
 :root {
-    --main-theme-color: #0f579c;
+  --main-theme-color: #0f579c;
 }
 
 .your-class .your-class__header {
-    background-color: var(--main-theme-color);
-    /* Sometimes you'll need an !important
+  background-color: var(--main-theme-color);
+  /* Sometimes you'll need an !important
       to overwrite the default value */
 }
 
