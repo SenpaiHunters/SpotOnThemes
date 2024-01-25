@@ -1,0 +1,9 @@
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.animated-element {
+  animation-name: example;
+  animation-duration: 4s;
+}

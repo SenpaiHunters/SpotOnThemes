@@ -1,0 +1,7 @@
+.dashed-border {
+  border: 2px dashed green;
+}
+
+.outlined-element {
+  outline: 1px solid red;
+}

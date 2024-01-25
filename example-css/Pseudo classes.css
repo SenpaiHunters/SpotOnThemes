@@ -1,0 +1,8 @@
+p:first-child {
+  color: blue;
+}
+
+.element::before {
+  content: "★";
+  color: gold;
+}
