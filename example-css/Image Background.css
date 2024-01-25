@@ -1,0 +1,11 @@
+:root {
+  --main-bg: url("https://private-user-images.githubusercontent.com/103985728/258636474-4d775c93-9e64-4abc-ae9b-335205775016.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYxODI2ODEsIm5iZiI6MTcwNjE4MjM4MSwicGF0aCI6Ii8xMDM5ODU3MjgvMjU4NjM2NDc0LTRkNzc1YzkzLTllNjQtNGFiYy1hZTliLTMzNTIwNTc3NTAxNi5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNVQxMTMzMDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hOWM5YzhlOTU5NmQ5MTZhYzc2OGMwNDIyNDkyYjg5NmVkYTE3MTc5ZjM4NWE3NTY0ZmE5N2NlN2VmMTEyZWZhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iOo9e6qyJo2NpwnxAiXKvjjjjZacC4RyzILVjEFdWZA");
+}
+
+body {
+  background: var(--main-bg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}

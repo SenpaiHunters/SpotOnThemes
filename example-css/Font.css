@@ -8,3 +8,10 @@ body {
   font-size: 16px;
   color: black;
 }
+
+/* Typography */
+.typography-example {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}

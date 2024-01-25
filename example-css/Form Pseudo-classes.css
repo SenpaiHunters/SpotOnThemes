@@ -1,0 +1,7 @@
+input:disabled {
+  background-color: #ccc;
+}
+
+input:focus {
+  border-color: blue;
+}
