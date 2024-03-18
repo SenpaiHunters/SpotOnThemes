@@ -24,5 +24,7 @@ Inside the `Readme.md` file, you will find a description, the size of the `css` 
 | Amoled   | A pure black theme                                   | 3KB  |
 | ArcTheme | A theme specialized for Arc Browser                  | 15KB |
 | Lofi     | A themed GIF background with a Lofi aesthetic        | 8KB  |
+| Blueify  | A blue and black theme                               | 4KB  |
+| Simple   | A slight color change for the nb and npb             | 2KB  |
 
 If you see a theme you want to add, feel free to create one!

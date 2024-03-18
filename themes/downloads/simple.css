@@ -1,0 +1,77 @@
+:root {
+  --main-bg: rgba(0, 0, 0, 0.2);
+}
+
+.sqKERfoKl4KwrtHqcKOd {
+  background-color: var(--main-bg) !important;
+  background: var(--main-bg) !important;
+  overflow-x: none !important;
+}
+.BdcvqBAid96FaHAmPYw_ {
+  overflow-x: none !important;
+}
+.ifVI2CEdOZGgMWIUN2Cw {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+/* Now Playing bar */
+.JG5J9NWJkaUO9fiKECMA {
+  background-color: var(--main-bg) !important;
+  background: var(--main-bg) !important;
+  border-radius: 45px !important;
+  min-height: -webkit-fill-available !important;
+  height: -webkit-fill-available !important;
+  width: -webkit-fill-available !important;
+}
+/* Now Playing View */
+.AzO2ondhaHJntbGy_3_S {
+  background-color: transparent !important;
+}
+/* Nav bar */
+.EZFyDnuQnx5hw78phLqP {
+  background-color: transparent !important;
+}
+
+.deomraqfhIAoSB3SgXpu {
+  transform: translateX(28px) !important;
+}
+/* now playing view */
+.OTfMDdomT5S7B5dbYTT8 {
+  background-color: var(--main-bg) !important;
+  background: var(--main-bg) !important;
+  border-radius: 30px !important;
+  min-height: -webkit-fill-available !important;
+  height: -webkit-fill-available !important;
+  width: -webkit-fill-available !important;
+}
+/* Keyboard shortcuts */
+.EhyK_jJzB2PcWXd5lg24 {
+  background-color: var(--main-bg) !important;
+  background: var(--main-bg) !important;
+  border-radius: 30px !important;
+}
+/* Streaming to device */
+#context-menu
+  [aria-labelledby="device-picker-icon-button"]:has(
+    #device-picker-header [data-testid="animated-now-playing"]
+  ),
+.aCtCKL9BxAoHeVZS0uRs.bk509U3ZhZc9YBJAmoPB {
+  background-color: var(--main-bg) !important;
+  background: var(--main-bg) !important;
+  border-radius: 35px !important;
+}
+/* Credits */
+.uV8q95GGAb2VDtL3gpYa,
+.Nw1INlIyra3LT1JjvoqH,
+.pGU_qEtNT1qWKjrRbvan {
+  background-color: var(--main-bg) !important;
+  background: var(--main-bg) !important;
+}
+.pGU_qEtNT1qWKjrRbvan {
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+.Nw1INlIyra3LT1JjvoqH {
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}

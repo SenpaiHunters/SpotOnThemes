@@ -7,5 +7,7 @@ What does this folder contain?
 | Amoled   | A pure black theme                                   | 3KB  |
 | ArcTheme | A theme specialized for Arc Browser                  | 15KB |
 | Lofi     | A themed GIF background with a Lofi aesthetic        | 8KB  |
+| Blueify  | A blue and black theme                               | 4KB  |
+| Simple   | A slight color change for the nb and npb             | 2KB  |
 
 See a theme you want to add? Make one!!
