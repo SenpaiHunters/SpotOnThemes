@@ -1,12 +1,3 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: Bug Report
 description: File a bug report.
 title: "🐛 [Title here]"
@@ -53,17 +44,8 @@ body:
 
   - type: input
     attributes:
-      label: MacOS Version
-      description: Apple Logo -> About This Mac
-      placeholder: |
-        [ex. Ventura 13.1]
-    validations:
-      required: true
-
-  - type: input
-    attributes:
       label: SpotOn Version
-      description: You can find this in SpotOn\'s development section!
+      description: You can find this in SpotOn\'s development window!
       placeholder: |
         [ex. Version 1.0.0 (246)]
     validations:
