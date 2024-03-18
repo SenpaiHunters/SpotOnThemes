@@ -50,3 +50,4 @@ body:
           required: true
         - label: "This is a single feature request (multiple feature requests should be reported individually)."
           required: true
+---
