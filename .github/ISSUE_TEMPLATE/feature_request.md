@@ -1,60 +1,55 @@
 ---
-name: Feature Request
 about: Suggest an idea for this project
-title: "✨ [Title here]"
-labels: ["feature"]
-assignees: ""
-
-description: "Request a new feature. If this doesn't look right, choose a different type."
+assignees: ''
 body:
-  - type: markdown
-    attributes:
-      value: "## Issue: Feature Request\n\nRequest a new feature. If this doesn't look right, choose a different type.\n\n"
+  - attributes:
+      value: |+
+        ## Issue: Feature Request
 
-  - type: input
-    attributes:
+        Request a new feature. If this doesn't look right, choose a different type.
+
+    type: markdown
+  - attributes:
+      description: ✨ [Title here]
       label: Add a title
-      description: "✨ [Title here]"
-      placeholder: "Feature title..."
+      placeholder: Feature title...
+    type: input
     validations:
       required: true
-
-  - type: textarea
-    attributes:
+  - attributes:
+      description: Provide a clear and concise description of this feature request with any problems and solutions.
       label: Feature Request Description
-      description: "Provide a clear and concise description of this feature request with any problems and solutions."
-      placeholder: "Detailed description..."
+      placeholder: Detailed description...
+    type: textarea
     validations:
       required: true
-
-  - type: textarea
-    attributes:
+  - attributes:
+      description: Add screenshots to help explain this feature request, if applicable.
       label: Screenshots
-      description: "Add screenshots to help explain this feature request, if applicable."
-      placeholder: "Link to screenshots..."
+      placeholder: Link to screenshots...
+    type: textarea
     validations:
       required: false
-
-  - type: textarea
-    attributes:
+  - attributes:
+      description: Provide any additional information about this feature request.
       label: Additional Context
-      description: "Provide any additional information about this feature request."
-      placeholder: "Any additional context..."
+      placeholder: Any additional context...
+    type: textarea
     validations:
       required: false
-
-  - type: checkboxes
-    attributes:
+  - attributes:
+      description: Please review your request before submitting.
       label: Final Checks
-      description: "Please review your request before submitting."
       options:
-        - label: "My issue title is descriptive"
+        - label: My issue title is descriptive
           required: true
-        - label: "This is a single feature request (multiple feature requests should be reported individually)"
+        - label: This is a single feature request (multiple feature requests should be reported individually)
           required: true
-
-  - type: markdown
-    attributes:
-      value: "🙏 Thank you for taking the time to report this feature request!"
-
----
+    type: checkboxes
+  - attributes:
+      value: 🙏 Thank you for taking the time to report this feature request!
+    type: markdown
+description: Request a new feature. If this doesn't look right, choose a different type.
+labels: ["feature"]
+name: Feature Request
+title: ✨ [Title here]
