@@ -1,7 +1,10 @@
+---
 name: Feature Request
-description: Request a new feature.
+about: Suggest an idea for this project
 title: "✨ [Title here]"
 labels: ["feature"]
+assignees: ""
+description: Request a new feature.
 body:
   - type: textarea
     attributes:
@@ -36,3 +39,4 @@ body:
   - type: markdown
     attributes:
       value: Thank you for taking the time to report this feature request!
+---
