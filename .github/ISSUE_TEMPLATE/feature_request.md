@@ -1,4 +1,3 @@
----
 name: Feature Request
 description: Request a new feature.
 title: "✨ [Title here]"
@@ -37,4 +36,3 @@ body:
   - type: markdown
     attributes:
       value: Thank you for taking the time to report this feature request!
----
